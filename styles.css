@@ -52,6 +52,8 @@ li {
   position: sticky;
   top: 0;
   z-index: 50;
+
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 }
 
 .navbar a {
@@ -222,7 +224,7 @@ li {
 }
 
 .resume:hover p {
-  color: #cb3cff;
+  color: black;
 }
 .contact-and-links {
   width: 100%;
@@ -285,7 +287,7 @@ li {
   grid-row: 1;
 }
 .project-name-2 a:hover i {
-  color: violet;
+  color: black;
 }
 .project-name-2 a:hover {
   transition: all 0.3s;
@@ -328,7 +330,7 @@ li {
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: 1fr 3.5fr;
   gap: 20px;
-  margin-top: 30px;
+  margin-top: 60px;
   padding: 0 10px;
   transform: translateY(50px);
   opacity: 0;
@@ -391,7 +393,7 @@ li {
   transition: all 0.3s;
 }
 .project-name-2 a:hover p {
-  color: #cb3cff;
+  color: black;
 }
 .project-name-2 a p {
   transition: all 0.3s;
